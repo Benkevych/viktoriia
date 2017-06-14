@@ -1,0 +1,59 @@
+@import "variables.scss";
+.section-app {
+  background-color: $pale-grey;
+  @media #{$mobile} {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .carousel-indicators {
+    position: static;
+    margin-bottom: 0;
+    margin-top: 60px;
+    margin-left: 0;
+    width: 100%;
+    li {
+      background-color: $bright-blue;
+      width: 6px;
+      height: 6px;
+    }
+    .active {
+      background-color: $blue;
+    }
+  }
+  .carousel-control {
+    @media #{$mobile} {
+      display: none;
+    }
+  }
+  .left {
+    background-image: none;
+  }
+  .right {
+    background-image: none;
+  }
+  &__title {
+    margin: 0;
+    font-size: 48px;
+    line-height: 56px;
+    color: $navy;
+  }
+  &__text {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.78;
+    color: $navy;
+  }
+  &__link {
+    display: inline-block;
+    width: auto;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.78;
+    color: $navy;
+    padding-bottom: 4px;
+    border-bottom: solid 2px $aqua;
+  }
+}

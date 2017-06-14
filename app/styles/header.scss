@@ -1,0 +1,39 @@
+@import "variables.scss";
+.header {
+  background-image: url("../images/header-bg.svg");
+  background-repeat: no-repeat;
+  @media #{$mobile} {
+    background-position: -50px 50px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+  }
+  &__menu {
+    padding-left: 0;
+    list-style-type: none;
+    padding-top: 78px;
+    margin-bottom: 0;
+    li {
+      padding-top: 36px;
+      &:first-child {
+        padding-top: 0;
+      }
+    }
+    a {
+      font-size: 24px;
+      color: $navy;
+    }
+  }
+  &__title {
+    margin: 0;
+    font-size: 64px;
+    color: $navy;
+    margin-top: 110px;
+  }
+  &__text {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 1.78;
+    color: $navy;
+  }
+}
