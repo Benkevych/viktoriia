@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="860px" viewBox="0 0 1440 860" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>BG</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1440" height="860"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-Desktop-HD-Sliders-1" transform="translate(0.000000, -1720.000000)">
+            <g id="Block-3" transform="translate(0.000000, 1720.000000)">
+                <g id="BG">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Rectangle-Copy-2" fill="#FFFFFF" xlink:href="#path-1"></use>
+                    <g id="Illustration" mask="url(#mask-2)">
+                        <g transform="translate(-1156.000000, -589.000000)">
+                            <g>
+                                <ellipse id="Oval-4-Copy-8" stroke="#007CFF" opacity="0.100000001" transform="translate(1287.792850, 839.247187) rotate(20.500000) translate(-1287.792850, -839.247187) " cx="1287.79285" cy="839.247187" rx="1208.79141" ry="443.997741"></ellipse>
+                                <ellipse id="Oval-4-Copy-7" stroke="#007CFF" opacity="0.200000003" transform="translate(1642.367540, 1053.805071) rotate(-4.000000) translate(-1642.367540, -1053.805071) " cx="1642.36754" cy="1053.80507" rx="819.875459" ry="229.008548"></ellipse>
+                                <ellipse id="Oval-4-Copy-6" stroke="#007CFF" opacity="0.200000003" transform="translate(1644.999268, 1050.989539) rotate(-4.000000) translate(-1644.999268, -1050.989539) " cx="1644.99927" cy="1050.98954" rx="561.356371" ry="157.813903"></ellipse>
+                                <ellipse id="Oval-4-Copy-5" stroke="#007CFF" opacity="0.200000003" transform="translate(1621.267131, 1049.669822) rotate(-4.000000) translate(-1621.267131, -1049.669822) " cx="1621.26713" cy="1049.66982" rx="311.348037" ry="86.826115"></ellipse>
+                                <ellipse id="Oval-4-Copy-4" stroke="#007CFF" opacity="0.300000012" transform="translate(1622.078713, 1044.727766) rotate(-10.000000) translate(-1622.078713, -1044.727766) " cx="1622.07871" cy="1044.72777" rx="186.285144" ry="58.298602"></ellipse>
+                                <ellipse id="Oval-4-Copy-3" stroke="#007CFF" opacity="0.400000006" transform="translate(1644.704015, 1045.417658) rotate(-4.000000) translate(-1644.704015, -1045.417658) " cx="1644.70402" cy="1045.41766" rx="134.174364" ry="37.2869388"></ellipse>
+                                <ellipse id="Oval-4-Copy-2" stroke="#007CFF" opacity="0.5" transform="translate(1646.915254, 1046.813559) rotate(-4.000000) translate(-1646.915254, -1046.813559) " cx="1646.91525" cy="1046.81356" rx="74.6595083" ry="20.8519988"></ellipse>
+                                <ellipse id="Oval-4-Copy" stroke="#007CFF" opacity="0.5" transform="translate(1647.159290, 1046.165937) rotate(-4.000000) translate(-1647.159290, -1046.165937) " cx="1647.15929" cy="1046.16594" rx="43.9225148" ry="12.2209555"></ellipse>
+                                <ellipse id="Oval-4" stroke="#007CFF" opacity="0.600000024" transform="translate(1646.237288, 1046.135593) rotate(-4.000000) translate(-1646.237288, -1046.135593) " cx="1646.23729" cy="1046.13559" rx="21.4717871" ry="6.13479632"></ellipse>
+                                <ellipse id="Oval-4-Copy-9" stroke="#007CFF" fill-opacity="0.1" fill="#007CFF" opacity="0.800000012" transform="translate(1646.237288, 1046.135593) rotate(-4.000000) translate(-1646.237288, -1046.135593) " cx="1646.23729" cy="1046.13559" rx="6.09835129" ry="1.74238608"></ellipse>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

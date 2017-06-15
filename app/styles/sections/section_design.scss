@@ -1,0 +1,36 @@
+@import "variables.scss";
+.section-design {
+  background-image: url("../../images/section-design-bg.svg");
+  background-repeat: no-repeat;
+  @media #{$mobile} {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-size: cover; // background-position: -435px -5px;
+  }
+  .carousel-indicators {
+    position: static;
+    margin-bottom: 0;
+    margin-top: 60px;
+    margin-left: 0;
+    width: 100%;
+    li {
+      background-color: $bright-blue;
+      width: 6px;
+      height: 6px;
+    }
+    .active {
+      background-color: $blue;
+    }
+  }
+  .carousel-control {
+    @media #{$mobile} {
+      display: none;
+    }
+  }
+  .left {
+    background-image: none;
+  }
+  .right {
+    background-image: none;
+  }
+}
