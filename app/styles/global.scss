@@ -1,0 +1,48 @@
+@import "variables.scss";
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+
+/* Space out content a bit */
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: SofiaPro;
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+    color: initial !important;
+  }
+  &:focus {
+    color: initial !important;
+    text-decoration: none;
+  }
+  &:visited {
+    color: initial !important;
+    text-decoration: none;
+  }
+  &:active {
+    text-decoration: none;
+    color: initial !important;
+  }
+}
+
+.container {
+  @media #{$mobile} {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+.mobile-hide {
+  @media #{$mobile} {
+    display: none;
+  }
+}

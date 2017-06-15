@@ -42,5 +42,8 @@
         "single"
       ]
     }
+  },
+  "dependencies": {
+    "generator-jquery-mobile": "^0.2.2"
   }
 }
