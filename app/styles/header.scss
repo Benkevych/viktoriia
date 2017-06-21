@@ -7,15 +7,40 @@
     padding-top: 100px;
     padding-bottom: 60px;
   }
+  @media #{$tablet} {
+    background-position: -70px 160px;
+    padding-top: 120px;
+    padding-bottom: 285px;
+  }
+  @media #{$laptop} {
+    background-position: 0px 160px;
+    padding-top: 120px;
+    padding-bottom: 285px;
+  }
+  @media #{$desktop} {
+    background-size: 50%;
+    background-position: 130px 150px;
+    padding-top: 120px;
+    padding-bottom: 330px;
+  }
   &__menu {
     padding-left: 0;
     list-style-type: none;
     padding-top: 78px;
     margin-bottom: 0;
+    @media #{$tablet} {
+      padding-top: 180px;
+    }
+    @media #{$laptop} {
+      padding-top: 180px;
+    }
+    @media #{$desktop} {
+      padding-top: 180px;
+    }
     li {
-      padding-top: 36px;
-      &:first-child {
-        padding-top: 0;
+      padding-bottom: 36px;
+      &:last-child {
+        padding-bottom: 0;
       }
     }
     a {
@@ -28,6 +53,15 @@
     font-size: 64px;
     color: $navy;
     margin-top: 110px;
+    @media #{$tablet} {
+      margin-top: 210px;
+    }
+    @media #{$laptop} {
+      margin-top: 210px;
+    }
+    @media #{$desktop} {
+      margin-top: 235px;
+    }
   }
   &__text {
     margin-top: 30px;

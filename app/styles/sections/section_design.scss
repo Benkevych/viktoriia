@@ -5,7 +5,69 @@
   @media #{$mobile} {
     padding-top: 60px;
     padding-bottom: 60px;
-    background-size: cover; // background-position: -435px -5px;
+    background-size: cover;
+    background-position: -435px -5px;
+  }
+  @media #{$tablet} {
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background-position: -220px 25px; // background-size: cover;
+  }
+  @media #{$laptop} {
+    padding-top: 20px;
+    background-position: -220px 20px;
+  }
+  @media #{$desktop} {
+    background-position: 0px 25px;
+  }
+  .col-md-2 {
+    @media #{$tablet} {
+      width: 50%;
+    }
+    @media #{$laptop} {
+      width: 12%;
+    }
+  }
+  .col-md-10 {
+    @media #{$tablet} {
+      width: 50%;
+    }
+    @media #{$laptop} {
+      width: 87%;
+    }
+  }
+  #item2-2 {
+    @media #{$laptop} {
+      background-image: url("../../images/item2-2-bg.png");
+      background-size: 50%;
+      background-repeat: no-repeat;
+      background-position: center left;
+      background-position-x: -10px;
+    }
+    @media #{$desktop} {
+      background-image: url("../../images/item2-2-bg.png");
+      background-size: 40%;
+      background-repeat: no-repeat;
+      background-position: center left;
+      background-position-x: -10px;
+    }
+  }
+  #item1-2 {
+    @media #{$desktop} {
+      padding-bottom: 292px;
+    }
+  }
+  .item {
+    @media #{$laptop} {
+      padding-left: 47%;
+      padding-top: 190px;
+      padding-bottom: 210px;
+    }
+    @media #{$desktop} {
+      padding-left: 47%;
+      padding-top: 263px;
+      padding-bottom: 260px;
+    }
   }
   .carousel-indicators {
     position: static;
@@ -13,6 +75,15 @@
     margin-top: 60px;
     margin-left: 0;
     width: 100%;
+    @media #{$tablet} {
+      display: none;
+    }
+    @media #{$laptop} {
+      display: none;
+    }
+    @media #{$desktop} {
+      display: none;
+    }
     li {
       background-color: $bright-blue;
       width: 6px;
@@ -23,14 +94,65 @@
     }
   }
   .carousel-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     @media #{$mobile} {
       display: none;
+    }
+    @media #{$tablet} {
+      width: 60px;
+      height: 860px;
+      opacity: 1;
     }
   }
   .left {
     background-image: none;
+    right: 0;
+    .left-arrow {
+      width: 30px;
+      height: 30px;
+      background-image: url("../../images/slider-arrow-left.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
   }
   .right {
     background-image: none;
+    top: 0;
+    right: 0;
+    .right-arrow {
+      width: 30px;
+      height: 30px;
+      background-image: url("../../images/slider-arrow-right.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  }
+  &__menu {
+    padding-left: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+    @media #{$tablet} {
+      padding-top: 170px;
+    }
+    @media #{$laptop} {
+      margin-top: 300px;
+    }
+    @media #{$desktop} {
+      margin-top: 330px;
+    }
+    li {
+      padding-bottom: 36px;
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
+    a {
+      font-size: 24px;
+      color: $navy;
+    }
   }
 }

@@ -5,12 +5,49 @@
     padding-top: 60px;
     padding-bottom: 60px;
   }
+  @media #{$tablet} {
+    padding-top: 260px;
+    padding-bottom: 260px;
+  }
+  @media #{$laptop} {
+    padding-top: 87px;
+    padding-bottom: 80px;
+  }
+  @media #{$desktop} {
+    padding-top: 87px;
+    padding-bottom: 80px;
+  }
+  .col-md-2 {
+    @media #{$tablet} {
+      width: 50%;
+    }
+    @media #{$laptop} {
+      width: 12%;
+    }
+  }
+  .col-md-10 {
+    @media #{$tablet} {
+      width: 50%;
+    }
+    @media #{$laptop} {
+      width: 87%;
+    }
+  }
   .carousel-indicators {
     position: static;
     margin-bottom: 0;
     margin-top: 60px;
     margin-left: 0;
     width: 100%;
+    @media #{$tablet} {
+      display: none;
+    }
+    @media #{$laptop} {
+      display: none;
+    }
+    @media #{$desktop} {
+      display: none;
+    }
     li {
       background-color: $bright-blue;
       width: 6px;
@@ -20,16 +57,120 @@
       background-color: $blue;
     }
   }
+  .item {
+    @media #{$laptop} {
+      padding-left: 47%;
+      padding-top: 190px;
+      padding-bottom: 195px;
+    }
+    @media #{$desktop} {
+      padding-left: 45%;
+      padding-top: 245px;
+      padding-bottom: 238px;
+    }
+  }
+  #item1-1 {
+    @media #{$laptop} {
+      background-image: url("../../images/item1-1-bg.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center left;
+      background-position-x: -10px;
+    }
+    @media #{$desktop} {
+      background-image: url("../../images/item1-1-bg.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center left;
+      background-position-x: -10px;
+    }
+  }
+  #item2-1 {
+    @media #{$laptop} {
+      padding-bottom: 130px;
+      background-image: url("../../images/item1-2-bg.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center left;
+      background-position-x: -10px;
+    }
+    @media #{$desktop} {
+      padding-bottom: 120px;
+      background-image: url("../../images/item1-2-bg.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center left;
+      background-position-x: -10px;
+    }
+  }
   .carousel-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     @media #{$mobile} {
       display: none;
+    }
+    @media #{$tablet} {
+      width: 60px;
+      height: 860px;
+      background-color: rgba(255, 255, 255, 0.5);
+      opacity: 1;
+    }
+    @media #{$laptop} {
+      width: 60px;
+      height: 860px;
+      background-color: rgba(255, 255, 255, 0.5);
+      opacity: 1;
     }
   }
   .left {
     background-image: none;
+    right: 0;
+    .left-arrow {
+      width: 30px;
+      height: 30px;
+      background-image: url("../../images/slider-arrow-left.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
   }
   .right {
     background-image: none;
+    top: 0;
+    right: 0;
+    .right-arrow {
+      width: 30px;
+      height: 30px;
+      background-image: url("../../images/slider-arrow-right.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  }
+  &__menu {
+    padding-left: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+    @media #{$tablet} {
+      margin-top: 70px;
+    }
+    @media #{$laptop} {
+      margin-top: 240px;
+    }
+    @media #{$desktop} {
+      margin-top: 240px;
+    }
+    li {
+      padding-bottom: 36px;
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
+    a {
+      font-size: 24px;
+      color: $navy;
+    }
   }
   &__title {
     margin: 0;
@@ -55,5 +196,11 @@
     color: $navy;
     padding-bottom: 4px;
     border-bottom: solid 2px $aqua;
+    @media #{$tablet} {
+      margin-top: 60px;
+    }
+    @media #{$laptop} {
+      margin-top: 60px;
+    }
   }
 }

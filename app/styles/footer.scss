@@ -1,0 +1,78 @@
+@import "variables.scss";
+.footer {
+  background-image: url("../images/footer-bg.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  @media #{$mobile} {
+    background-position: bottom;
+    background-position-x: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  @media #{$tablet} {
+    padding-top: 95px;
+    padding-bottom: 95px;
+  }
+  @media #{$laptop} {
+    background-position: bottom left;
+    background-position-x: 70px;
+    padding-top: 95px;
+    padding-bottom: 95px;
+  }
+  @media #{$desktop} {
+    background-position: bottom left;
+    background-position-x: 130px;
+    padding-top: 95px;
+    padding-bottom: 95px;
+  }
+  &__menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    display: flex;
+    @media #{$tablet} {
+      flex-direction: row;
+    }
+    @media #{$laptop} {
+      flex-direction: row;
+    }
+    @media #{$desktop} {
+      flex-direction: row;
+    }
+    li {
+      padding-bottom: 40px;
+      &:last-child {
+        padding-bottom: 0;
+      }
+      &:first-child {
+        @media #{$tablet} {
+          margin-right: 110px;
+        }
+        @media #{$laptop} {
+          margin-right: 190px;
+        }
+        @media #{$desktop} {
+          margin-right: 245px;
+        }
+      }
+      @media #{$tablet} {
+        padding-bottom: 0;
+        margin-right: 70px;
+      }
+      @media #{$laptop} {
+        padding-bottom: 0;
+        margin-right: 120px;
+      }
+      @media #{$desktop} {
+        padding-bottom: 0;
+        margin-right: 180px;
+      }
+    }
+    a {
+      font-size: 18px;
+      font-weight: 300;
+      color: $navy;
+    }
+  }
+}

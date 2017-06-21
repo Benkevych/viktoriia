@@ -1,9 +1,27 @@
-$(".carousel").swipe({
+$('.carousel').on('slid.bs.carousel', function () {
+  if ($('#item2-1').hasClass('active')) {
 
-  swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
-    if (direction == 'left') $(this).carousel('next');
-    if (direction == 'right') $(this).carousel('prev');
-  },
-  allowPageScroll: "vertical"
+    $('#left1').removeClass('hide');
+  } else {
+    $('#left1').addClass('hide');
+  }
+  if ($('#item1-1').hasClass('active')) {
 
+    $('#right1').removeClass('hide');
+  } else {
+    $('#right1').addClass('hide');
+  }
+
+  if ($('#item2-2').hasClass('active')) {
+
+    $('#left2').removeClass('hide');
+  } else {
+    $('#left2').addClass('hide');
+  }
+  if ($('#item1-2').hasClass('active')) {
+
+    $('#right2').removeClass('hide');
+  } else {
+    $('#right2').addClass('hide');
+  }
 });
